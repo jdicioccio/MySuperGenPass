@@ -1,12 +1,14 @@
-### SuperGenPass as a Chrome Extension
+# SuperGenPass as a Chrome Extension
 
 This is exactly the same version used in http://supergenpass.com/mobile/
-And it was adapted to be used as a chrome extension by https://github.com/benol/MySuperGenPass Thanks to benol!
-However; there were some improvements for performance that makes it hard to investigate if there is any "funny code". And also, I didn't really like the idea to get automatic updates of the extension without my approval. So, I removed the hooks in manifest.json as well. 
 
-No offense benol. Security is very important, right. So, I changed a little bit to make it more secure. 
+And it was adapted to be used as a chrome extension by https://github.com/benol/MySuperGenPass Thanks to <b>benol</b>!
 
-I got rid of unused resources and replaced minified zepto with the one I downloaded myself. And also, I compared the supergenpass algorithm with the actual source. Finally, I updated the manifest.json to make it not updatable. And voila! Yet another SuperGenPass based app.
+However; there were some improvements for performance that makes it hard to investigate if there is any "funny code". And also, I didn't really like the idea to get automatic updates of the extension without my approval. 
+
+No offense benol. Security is very important, right. So, I changed a little bit to make it more open to be audited. 
+
+I got rid of unused resources and replaced minified zepto with the one I downloaded myself. And also, I compared the supergenpass algorithm with the actual source. Finally, I removed the hooks in manifest.json to make it not updatable. And voila! Yet another SuperGenPass based app.
 
 ## Installation
 
