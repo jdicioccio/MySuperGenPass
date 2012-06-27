@@ -12,11 +12,10 @@ I got rid of unused resources and replaced minified zepto with the one I downloa
 
 ## Installation
 
-As I said, this extension is not intended to be in the chrome store. So, you need to install by yourself. To install, follow these steps:
+This extension is not intended to be in the chrome store due to auto update. So, you need to install it by yourself. To install, follow these steps:
 
-* First, check by yourself if there is anything "scary" in the code! As far as I know, there is nothing that can track any password or transaction. But, I can be wrong! Check yourself. I take no responsibility.
+* First, check by yourself if there is anything "scary" in the code! As far as I know, there is nothing that can track any password or transaction. But, I can be wrong! Check yourself. I take no responsibility. If you find anything, please let me know too. I am using it everyday. :)
 * Clone the repository to the specified folder of your own.
-	git clone https://github.com/osaatcioglu/MySuperGenPass.git
 * Go to Tools|Extension in Chrome
 * Select Developer Mode
 * Click on Load unpacked extension...
